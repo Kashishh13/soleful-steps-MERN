@@ -1,0 +1,77 @@
+
+.whole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://static.vecteezy.com/system/resources/previews/004/491/597/non_2x/pair-of-shoes-on-color-background-illustration-free-vector.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.popup {
+
+  background: linear-gradient(95deg,rgb(248, 132, 151), rgb(116, 175, 243));
+  margin-right: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: pink;
+  color: black;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p a {
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+p.message {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

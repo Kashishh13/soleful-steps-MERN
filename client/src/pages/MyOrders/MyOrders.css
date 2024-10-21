@@ -1,0 +1,78 @@
+.mo {
+  margin-top: 75px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mo h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: palevioletred;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container h1{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.my-orders-order {
+  background:rgb(241, 180, 190); /* White background for a clean look */
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+  margin: 15px;
+  padding: 20px;
+  width: 300px; /* Adjust width for better appearance */
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative; /* Position for the dot */
+}
+
+.my-orders-order:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.order-logo {
+  font-size: 50px; /* Adjust icon size */
+  color: #007BFF; /* Icon color */
+  margin-bottom: 15px;
+}
+
+.order-details {
+  text-align: left;
+}
+
+.order-items {
+  font-size: 16px; /* Increased font size */
+  margin: 8px 0;
+}
+
+.order-amount {
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+  color: #333; /* Darker text for better visibility */
+  margin: 8px 0;
+}
+
+.order-count {
+  font-size: 14px;
+  color: #666; /* Lighter color for count */
+  margin: 5px 0;
+}
+
+.order-status {
+  font-size: 14px;
+  color: #555; /* Neutral color for status */
+  margin: 10px 0;
+}
+
+/* Red dot for order status */
+.order-status span {
+  color: red; /* Red color for the dot */
+  font-weight: bold; /* Bold dot */
+  margin-right: 5px; /* Space between dot and status text */
+}

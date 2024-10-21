@@ -1,0 +1,77 @@
+.footer {
+  background: linear-gradient(90deg, #fcaad3, #64c8e9);
+  color: black;
+  padding: 40px 20px;
+  border-top: 1px solid palevioletred;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.logo{
+  height: 50px;
+  width: 200px;
+}
+.footer-section {
+  gap: 40px;
+  flex: 1;
+  margin: 10px;
+  min-width: 200px; /* Ensure sections have a minimum width */
+}
+
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+.footer-section h2 {
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: palevioletred; /* Light blue for links */
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.social-icons a {
+  color:black; /* White icons */
+  font-size: 20px; /* Size of icons */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 0px;
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+.ql{
+  margin-left: 30px;
+}

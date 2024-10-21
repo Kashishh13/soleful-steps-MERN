@@ -1,0 +1,45 @@
+
+
+
+
+.tx{
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(221, 82, 128);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.menu-items{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.mname {
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center;    /* Centers text vertically */
+  padding: 10px;
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(247, 192, 210); 
+  cursor: pointer;
+}
+
+
+.food-display-list {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap if necessary */
+  gap: 20px;
+  margin-left: 20px; /* Space between food items */
+}
+.active-name{
+  background-color: white;
+}

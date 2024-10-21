@@ -1,0 +1,34 @@
+.po{
+  margin-top: 75px;
+ 
+}
+.place-order{
+  margin-top: 50px;
+  display: flex;
+  flex-direction:row ;
+  gap: 200px;
+  margin-right: 100px;
+}
+.multi-fields{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.title{
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: palevioletred;
+}
+.input-field {
+  width: 100%;
+  padding-left: 30px;
+  padding: 10px 10px; /* Adjust padding as needed */
+  border: none; /* Remove the border */
+  border-bottom: 2px solid palevioletred; /* Add bottom border */
+  outline: none; /* Remove outline on focus */
+  font-size: 16px; /* Adjust font size as needed */
+  background-color:  #82d2ec ;
+}

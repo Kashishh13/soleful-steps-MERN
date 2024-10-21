@@ -1,0 +1,62 @@
+ *{
+    margin: 0;
+    overflow-x: hidden;
+}
+ .ban{
+  background-color:  #82d2ec  ;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.three {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  display: flex; /* Use flexbox for row layout */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: space-around; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  padding:10px 10px; /* Add padding for spacing */
+
+  /* background-color:rgb(247, 192, 210);  */
+  background: linear-gradient(90deg, #fcaad3, #64c8e9);
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.three h1 {
+  padding-top: 10px;
+  width: 100%; /* Full width for heading */
+  text-align: center; /* Center align heading */
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: black; /* Dark color for the heading */
+}
+
+.ef {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack icon and text vertically */
+  align-items: center; /* Center items */
+  margin: 15px; /* Margin for spacing between items */
+  text-align: center; /* Center text */
+}
+
+.th {
+  font-size: 40px; /* Icon size */
+  color:  rgb(92, 87, 87) ; /* Icon color */
+  margin-bottom: 10px; /* Space between icon and text */
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+.eo {
+  font-size: 1.2em; /* Font size for descriptions */
+  color: black; /* Lighter color for text */
+  margin: 0; /* Remove default margin */
+}
+
+/* Hover effect on icon */
+.ef:hover .th {
+  transform: scale(1.4); 
+  cursor: pointer;/* Slightly enlarge the icon on hover */
+}
